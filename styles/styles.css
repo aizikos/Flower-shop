@@ -1,0 +1,412 @@
+
+body{
+    margin: 0;
+}
+
+/*стилизуем главную страницу Шапку*/
+
+header{
+    font-family: 'Cormorant', serif;
+}
+
+.frist_header{
+    background: linear-gradient(176deg, rgb(11 17 52), rgba(255,0,0,0) 70.71%), 
+    linear-gradient(127deg, rgb(14 67 16), rgba(0,255,0,0) 70.71%), 
+    linear-gradient(230deg, rgb(77 4 89), rgba(0,0,255,0) 70.71%);
+    position: relative;
+}
+
+.container{
+    margin: 0 13%;
+}
+
+.frist_header img{
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+}
+
+.header-inner{
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.Header_logo{
+    font-family: 'Cormorant', serif;
+}
+
+.Header_logo .f-logo{
+    font-size: 70px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    color: #8A8686;
+    margin: 0;
+}
+
+.Header_logo .t-logo{
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    margin: 0;
+}
+
+.header-menu{
+    margin-top: 20px;
+    margin-left: 84px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-menu a{
+    color:#ffffff;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.header-info{
+    font-family: 'Oswald', sans-serif;
+    text-align: end;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+.header-info h4{
+    margin: 0;
+    color: #43FFD2;
+}
+
+.header-info p{
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.adress{
+    margin-top: 26px;
+}
+
+.bg_text1,
+.bg-text2{
+    margin: 0;
+    font-size: 200px;
+    position: absolute;
+    top: 110px;
+    left: 22%;
+    line-height: 242px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.bg-text2{
+    top: 340px;
+    z-index: 1;
+    left: 18%;
+}
+
+.quote{
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 30%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+}
+
+.catalog_btn{
+    position: absolute;
+    bottom: 160px;
+    left: 40%;
+    z-index: 2;
+    border: 1px solid black;
+    padding: 20px 50px;
+    color: black;
+    background-color: #43FFD2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.contacts{
+    position: absolute;
+    bottom: 29%;
+    right: 12%;
+    z-index: 1;
+}
+
+.tell{
+    color: #43FFD2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contacts a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #43FFD2;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px 28px;
+}
+
+.bg2_img{
+    margin-top: -15px;
+}
+
+/*стилизуем основную часть станицы */
+
+.frist_main{
+    margin-top: -10px;
+}
+
+.bg_main_block{
+    width: 100%;
+    height: 840px;
+    background: linear-gradient(176deg, rgb(11 17 52), rgba(255,0,0,0) 70.71%), 
+    linear-gradient(127deg, rgb(14 67 16), rgba(0,255,0,0) 70.71%), 
+    linear-gradient(44deg, #673AB7, rgba(0,255,0,0) 70.71%), 
+    linear-gradient(230deg, rgb(77 4 89), rgba(0,0,255,0) 70.71%);
+}
+
+.f_tittle,
+.main2_tittle{
+    margin: 0;
+    font-family: 'Cormorant', serif;
+    font-size: 100px;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.frist_main_inner{
+    position: relative;
+}
+
+
+.text1_main{
+    width: 435px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.back_text1,
+.back_text2,
+.back_text3{
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 296px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dfe0df;
+}
+
+.bg-text3{
+    font-size: 95px;
+}
+
+.bouquet{
+    position: absolute;
+    top: -148px;
+    right: -95px;
+}
+
+.flowers{
+    position: absolute;
+    left: -170px;
+    top: 78px;
+}
+
+.additionally{
+    position: absolute;
+    bottom: -575px;
+    right: -135px;
+}
+
+.block_bouget,
+.block_flower,
+.block_additionally{
+    width: 300px;
+    padding: 40px 40px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 141px;
+    left: 88px;
+    z-index: 1;
+}
+
+.block_flower{
+    width: 400px;
+    left: 112px;
+    top: 165px;
+}
+
+.block_additionally{
+    width: 420px;
+    top: -100px;
+    left: 400px;
+}
+
+.block_bouget h4,
+.block_flower h4,
+.block_additionally h4{
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+}
+
+.block_bouget ul,
+.block_flower ul,
+.block_additionally ul{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block_bouget a,
+.block_flower a,
+.block_additionally a,
+.catalog_more{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #D978AC;
+    position: absolute;
+    right: 35px;
+}
+
+
+/*2-main*/
+.second_main{
+    margin-top: -20px;
+}
+
+.main2_inner{
+    position: relative;
+}
+
+.bg_main2_block{
+    height: 1300px;
+    background: linear-gradient(176deg, rgb(41 17 83), rgba(255,0,0,0) 70.71%), 
+    linear-gradient(140deg, rgb(14 67 16), rgba(0,255,0,0) 70.71%), 
+    linear-gradient(44deg, #673AB7, rgba(0,255,0,0) 70.71%), 
+    linear-gradient(230deg, rgb(77 4 89), rgba(0,0,255,0) 70.71%);
+}
+
+.bg_main2_block img{
+    float: right;
+}
+
+.main2_tittle{
+    position: absolute;
+    font-size: 50px;
+}
+
+.main2_tittle h1{
+    margin: 0;
+}
+
+.t2{
+    position: absolute;
+    right: -90px;
+}
+
+.main2_tittle p{
+    font-family: "Oswald";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    top: 245px;
+    position: absolute;
+    left: 250px;
+}
+
+.popular_flowers{
+    position: absolute;
+    display: flex;
+    top: 540px;
+    left: -8%;
+}
+
+.flower_card{
+    height: 630px;
+    padding-left: 10px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.flower_card h5{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin: 10px 0px;
+}
+
+.flower_card p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}
+
+.flower_card a{
+    border: 1px solid #ffffff;
+    padding: 16px 76px;
+    position: absolute;
+    bottom: 0;
+}
+
+.catalog_more{
+    left: 0;
+    top: 1255px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
