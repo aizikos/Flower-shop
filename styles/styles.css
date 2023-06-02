@@ -571,3 +571,138 @@ header{
 }
 
 /*5-main*/
+
+.bg_main_5{
+    background:linear-gradient(120deg, rgb(179 40 202), rgb(14 36 54) 40.71%), 
+    linear-gradient(192deg, rgb(37 249 45), rgb(46 182 33) 70.71%), 
+    linear-gradient(145deg, #0eda16, #4CAF50 70.71%), 
+    linear-gradient(250deg, rgb(14 211 22), rgb(74 167 78) 70.71%);
+    height: 740px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.petals{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+
+.craident{
+    position: absolute;
+    top: -40%;
+}
+.title_5_main{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    font-family: "Cormorant";
+    font-size: 40px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.title_5_main span{
+    margin-left: 30%;
+}
+
+.application_form{
+    position: absolute;
+    top: 10%;
+    right: 6%;
+}
+
+.form_card{
+    width: 355px;
+    color: #FFFFFF;
+}
+
+.stick_form{
+    width: 315px;
+    height: 1px;
+    background: #43FFD2;
+}
+
+.text_form{
+    margin-top: 18%;
+    font-family: "Oswald";
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}
+
+.application_fields{
+    display:  inline-grid;
+    position: absolute;
+    left: -120px;
+}
+
+.application_fields input{
+    background: transparent;
+    border: 1px solid #43FFD2;
+    padding: 15px;
+    width: 416px;
+    margin-top: 5%;
+    color: #395959;
+    text-transform: uppercase;
+    font-family: "Oswald";
+}
+
+.comment{
+    height: 120px;
+    background: transparent;
+    border: 1px solid #43FFD2;
+    padding: 15px;
+    width: 416px;
+    margin-top: 5%;
+    color: #395959;
+    text-transform: uppercase;
+    font-family: "Oswald";
+}
+
+.application_fields a{
+    border: 1px solid #43FFD2;
+    padding: 16px 93px;
+    background: #43FFD2;
+    color: #000000;
+    font-family: "Oswald";
+    font-size: 12px;    
+    width: 69px;
+    margin-top: 8%;
+    text-decoration: none;
+}
+
+.Privacy{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 388px;
+    text-transform: none;
+}
+
+.Privacy span{
+    color:#D978AC;
+    text-decoration: underline;
+}
+
+.Privacy span:hover{
+    cursor: pointer;
+}
+
+.signature2{
+    width: 245px;
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #0E2C2C;
+    transform: rotate(-18.44deg);
+}
+
+
+/* 6-block main */
+.bg_6_main
