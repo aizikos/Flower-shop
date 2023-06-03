@@ -59,6 +59,7 @@ header{
     margin-top: 20px;
     margin-left: 84px;
     font-family: 'Oswald', sans-serif;
+    width: 570px;
 }
 
 .header-menu a{
@@ -69,6 +70,12 @@ header{
     line-height: 21px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+}
+
+.search::before{
+    font-family: 'icomoon' !important;
+    content: "\f002";
+    padding-right: 1%;
 }
 
 .header-info{
@@ -148,7 +155,7 @@ header{
 
 .contacts{
     position: absolute;
-    bottom: 29%;
+    bottom: 39%;
     right: 12%;
     z-index: 1;
 }
@@ -163,6 +170,10 @@ header{
     margin-bottom: 18px;
 }
 
+.contacts .phone{
+    width: 200px;
+}
+
 .contacts a{
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
@@ -175,6 +186,96 @@ header{
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 10px 28px;
+}
+
+.tel::before{
+    content: "\f095";
+    font-family: 'icomoon' !important;
+    color: #43FFD2;
+    padding-right: 2%;
+}
+
+.basket_shop{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 43px;
+    position: absolute;
+    right: 0;
+    top: 88px;
+    z-index: 3;
+    padding: 20px 15px;
+    border-radius:10px;
+}
+
+.general_goods{
+    background: #43FFD2;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-family: "Oswald";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #142B2B;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
+.basket_shop::before{
+    content: "\f290";
+    font-family: "icomoon";
+    color: white;
+    padding: 7px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.social_sites{
+    display: grid;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 40px;
+    padding: 16px;
+    position: absolute;
+    padding: 16px;
+    z-index: 1;
+    right: 0;
+    top: 145%;
+}
+
+.instagram,
+.wattsapp,
+.calling{
+    padding-bottom: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.instagram::after{
+    content: "\f16d";
+    font-family: "icomoon";
+    background: #43FFD2;
+    font-size: 38px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.wattsapp::after{
+    content: "\f232";
+    font-family: "icomoon";
+    background: #43FFD2;
+    font-size: 38px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.calling::before{
+    content: "\f2a0";
+    font-family: "icomoon";
+    background: #43FFD2;
+    font-size: 38px;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 .bg2_img{
@@ -225,7 +326,8 @@ header{
 
 .back_text1,
 .back_text2,
-.back_text3{
+.back_text3,
+.back_text4{
     font-family: 'Oswald';
     font-weight: 700;
     font-size: 130px;
@@ -376,11 +478,58 @@ header{
 
 .flower_card{
     height: 630px;
-    padding-left: 10px;
+    padding-left: 15px;
     font-family: "Oswald";
     text-transform: uppercase;
     color: #FFFFFF;
     position: relative;
+}
+
+.toolcard{
+    background: #D978AC;
+    font-family: "Oswald";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 20px;
+    right: -10px;
+    top: -24px;
+    border-radius: 61%;
+}
+
+.tool2{
+    background: #31985A;
+
+}
+
+.arrow_rigth{
+    position: absolute;
+    top: 28%;
+    right: -60px;
+}
+
+.arrow_rigth::before{
+    content: "\f178";
+    font-family: "icomoon";
+    color: #D978AC;
+    font-size: 45px;
+}
+
+.arrow_left{
+    position: absolute;
+    top: 28%;
+    left: -60px;
+}
+
+.arrow_left::after{
+    content: "\f177";
+    font-family: "icomoon";
+    color: #D978AC;
+    font-size: 45px;
 }
 
 .flower_card h5{
@@ -705,4 +854,51 @@ header{
 
 
 /* 6-block main */
-.bg_6_main
+.bg_6_main{
+    background:linear-gradient(173deg, black 25%,purple,rgb(18, 231, 18)) ;
+    height: 900px;
+    position: relative;
+}
+
+.back_text4{
+    margin: 0;
+    font-size: 200px;
+    position: absolute;
+    top: 46%;
+    left: -10px;
+}
+
+.main_6_img{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 10%;
+}
+
+.main_6_img img{
+    padding-left: 3%;
+}
+
+.signature3{
+    width: 255px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 3%;
+    top: 45%;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    line-height: 28px;
+    text-transform: lowercase;
+}
+
+
+.sites2{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    right: 10%;
+    top: 60%;
+    width: 160px;
+    padding: 15px 20px;
+    background: none;
+}
