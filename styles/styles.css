@@ -30,6 +30,7 @@ header{
     position: absolute;
     top: 0;
     display: flex;
+    z-index: 2;
 }
 
 .Header_logo{
@@ -60,16 +61,47 @@ header{
     margin-left: 84px;
     font-family: 'Oswald', sans-serif;
     width: 570px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
 }
 
 .header-menu a{
     color:#ffffff;
     text-decoration: none;
-    padding-left: 30px;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    padding: 8px;
+}
+
+.header-menu a,
+.footer_inner a{
+    transition: 0.05s;
+}
+
+
+.header-menu a:hover,
+.footer_inner a:hover{
+    background: #D978AC;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.catalog_btn,
+.flower_card a,
+.btn_main_4,
+.btn_form{
+    transition: 0.5s;
+}
+
+
+.catalog_btn:hover,
+.flower_card a:hover,
+.btn_main_4:hover,
+.btn_form:hover{
+    background: #D978AC;
 }
 
 .search::before{
@@ -90,7 +122,8 @@ header{
     color: #43FFD2;
 }
 
-.header-info p{
+.header-info p,
+.footer-inform p{
     color: #FFFFFF;
     font-size: 10px;
     line-height: 15px;
@@ -334,9 +367,8 @@ header{
     line-height: 296px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #dfe0df;
+    color: #7973735e;
+    text-shadow: 0 0 29px #42424238;
 }
 
 .bg-text3{
@@ -551,6 +583,8 @@ header{
     padding: 16px 76px;
     position: absolute;
     bottom: 0;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .catalog_more{
@@ -713,6 +747,10 @@ header{
     color: #000000;
     background: #43FFD2;
     padding: 16px 17px;
+    position: absolute;
+    bottom: 150px;
+    left: 15%;
+    z-index: 2;
 }
 
 .main_4_img img{
@@ -901,4 +939,83 @@ header{
     width: 160px;
     padding: 15px 20px;
     background: none;
+}
+
+
+/*start footer  */
+
+.bg_footer{
+    background: #000000;
+    height: 360px;
+    position: relative;
+}
+
+.bg_footer .container{
+    margin: 0 8%;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    width: 1098px;
+}
+
+.footer_inner .t-logo{
+    left: 9%;
+}
+
+.footer_inner h4{
+    color: #43FFD2;
+    font-size: 14px;
+    font-family: "Oswald";
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.footer_inner li{
+    color: #FFFFFF;
+    font-family: "Oswald";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-top: 5px;
+}
+.footer_inner a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer_catology{
+    width: 150px;
+}
+
+.footer_bouqet{
+    width: 110px;
+}
+
+.requisites p{
+    width: 270px;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.footer_infos{
+    width: 175px;
+}
+
+.footer_infos a :hover,
+.footer-inform a:hover{
+    text-decoration: underline;
+    text-decoration-color: #43FFD2;
+}
+
+.footer_infos p{
+    color: #ffffff;
 }
